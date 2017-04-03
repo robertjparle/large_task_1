@@ -1,0 +1,80 @@
+/*
+*  This CSS is used for the large task for Cleversteam
+*  Written by Robert Parle, 22698965
+*  Each section of css elements will be given a comment to explain what they are for and to group them.
+*/
+
+body {
+  font-size: 18px;
+  font-family: 'calluna',serif;
+  background-color: #f5f5f5;
+}
+
+/*
+* Colour #c89e67; is the Cleversteam brown. #ffffff; is white. #c89e67; the dark grey that Cleversteam uses.
+*/
+
+/*
+* The below blocks of code are all CSS styles for the navbar.
+*/
+
+.navbar-default {
+  background-color: #c89e67;
+  border-bottom: solid #474e56
+}
+
+.navbar-default .navbar-brand  {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover  {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #ffffff;
+  background-color: #f5f5f5;
+  color: #c89e67;
+}
+
+.active {
+  background-color: #f5f5f5;
+  color: #c89e67;
+}
+
+.dropdown-menu {
+ background-color: #c89e67;
+ color: red;
+}
+
+/*
+*  The below blocks of code are for the buttons.
+*/
+
+.btn-primary {
+  background-color: #c89e67;
+  border-color: #c89e67;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  border-color: #c89e67;
+  color: #c89e67;
+}
+
+/*
+* The below blocks of code are for the panels
+*/
+
+.panel {
+  background-color: #ffffff;
+}
+
+.panel-default .panel-heading {
+  background-color: #c89e67;
+  color: #ffffff;
+}
